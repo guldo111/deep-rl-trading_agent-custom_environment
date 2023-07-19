@@ -48,7 +48,9 @@ To install the dependencies, use pip
 
 ## Usage
 
-1. Prepare the historical price data for Ethereum in the `data/` directory.
+1. Create a crypto_data folder in your working directory
+
+1. Prepare the historical price data for Ethereum in the `crypto_data` folder.
 
 2. Run the Jupyter Notebook
 
