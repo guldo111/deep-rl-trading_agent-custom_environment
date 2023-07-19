@@ -14,7 +14,7 @@ The project follows these key steps:
 
 1. Data Preprocessing: The historical price data of Ethereum is loaded from a CSV file and undergoes preprocessing. Technical indicators are calculated and added to the dataset.
 
-2. Train set and Test set: The dataset is divided into train and test set (80% train and 20% test). It is possible to introduce a K-fold Cross-Validation.
+2. Train set and Test set: The dataset is divided into train and test set (80% train and 20% test). It is possible to implement a K-fold Cross-Validation.
 
 3. Training and Evaluation Loop: A custom TradingEnvironment is created and transformed into a vectorized environment. The PPO model is then trained on the training environment using the PPO algorithm. The trained model is evaluated on the validation environment.
 
